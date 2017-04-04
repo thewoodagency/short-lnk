@@ -1,0 +1,19 @@
+/**
+ * Created by jay on 4/3/17.
+ */
+.header {
+  background: $header-bg;
+  color: $header-color;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  max-width: $site-max-width;
+  margin: 0 auto;
+  padding: $space;
+}
+
+.header_title {
+  margin: 0;
+}
