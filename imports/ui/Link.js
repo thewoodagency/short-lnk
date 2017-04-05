@@ -10,7 +10,7 @@ import LinksListFilters from './LinksListFilters';
 export default () => {
     return (
         <div>
-            <PrivateHeader title="My Short Links" />
+            <PrivateHeader title="Short Lnk Login" />
             <div className="page-content">
                 <LinksListFilters/>
                 <AddLink />
